@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    border-bottom: 5px solid #8FBC8F;
+}
+nav h1{
+    color: #8FBC8F;
+    font-family: 'Playfair Display' , sans-serif;
+    font-size: 40px;
+}
+nav .onglet{
+    margin-top: 3px;
+    margin-left: 300px;
+}
+nav .onglet a{
+     text-decoration: none;
+     color: black;
+     margin-right: 15px;
+     border-bottom: 1px solid black;
+     padding-bottom: 5px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image:url('../image/fondplante.jpg');    
+    background-size: cover;
+    color: white;
+    padding: 40px;
+}
+header h1{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 50px;
+}
+header h4{
+    margin-top: -20px;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+}
+section{
+    font-size: 30px;
+    color: black;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.informations{
+    background-color: #F0FFF0	;
+    padding:30px;
+}
+section h3{
+    font-family: 'Playfair Display', sans-serif;
+    text-align: center;
+
+
+}
+.produits{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-color: #8FBC8F;
+}
+.couleur{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 70px;
+    text-align: center
+    color white
+    
+}
+.droite img{
+    width : 700px;
+height : 700px;
+}
+.gauche img{
+    width : 700px;
+height : 700px;
+}
+.explications{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-style: italic;
+    font-size: 35px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    background-color: #F0FFF0	;
+    padding:30px;
+}
+.bannierefin{
+    display: flex;
+    align-items: center;
+    background-image:url('../image/fondplante.jpg');    
+    background-size: cover;
+    padding: 100px;
+}
+.pictogramme{
+    height: 200px;
+    width: 100%;
+    object-fit: contain;
+    margin-top: -35px;
+    margin-bottom: -10px;
+}
+footer{
+    margin-top: -16px;
+    border-top: 5px solid #8FBC8F;
+    background-color: #F0FFF0;
+    padding: 30px 100px;
+    font-size: 25px;
+    display: flex;
+}
+footer h1{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 35px;
+}
+.logo{
+    width: 200px;
+    display: block;
+    margin-left: 20%;
+    margin-right: auto;  
+}
+
+@media screen and (max-width:1024px) {
+    
+    .produits{
+        flex-direction: column;
+    }
+    
+}
